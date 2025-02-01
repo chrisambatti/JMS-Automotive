@@ -6,6 +6,8 @@
 
 JMS Automotive repository is the official repository of JMS Automotive, the website provide you with the overview of our company and what what we do at JMS Automotive.
 
+![Website!](C:\Users\CHRISTOPHER\Desktop\JMS Automotives\assets\web1.jpg)
+
 ## 🚀 Features
 
 - **Feature 1** – Type of Trucks for rental
