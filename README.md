@@ -4,20 +4,15 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/chrisambatti/JMS-Automotive)
 ![GitHub last commit](https://img.shields.io/github/last-commit/chrisambatti/JMS-Automotive)
 
-JMS Automotive is a [briefly describe your project, e.g., "a web-based application for managing vehicle service records efficiently."].
+JMS Automotive repository is the official repository of JMS Automotive, the website provide you with the overview of our company and what what we do at JMS Automotive.
 
 ## 🚀 Features
 
-- **Feature 1** – [Brief description]
-- **Feature 2** – [Brief description]
-- **Feature 3** – [Brief description]
-- **PDF Processing** – Supports PDF to text summarization, extraction, and translation.
+- **Feature 1** – Type of Trucks for rental
 
 ## 🛠 Technologies Used
 
-- **Frontend:** ReactJS, HTML, CSS, JavaScript
-- **Backend:** Node.js, Express.js
-- **Libraries:** pdf-parse, multer, cohere-ai, dotenv, classifier, body-parser
+- **Frontend:** HTML, CSS, JavaScript
 
 ## 📦 Installation
 
@@ -42,9 +37,7 @@ To set up the project locally, follow these steps:
 
 ## 📖 Usage
 
-1. Upload a PDF document.
-2. Choose an operation: extract text, summarize, or translate.
-3. View and save the processed text.
+It gives you an overview of what we do at JMS Automotive and the list of Trucks we have at our place.
 
 ## 🤝 Contributing
 
@@ -61,4 +54,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Feel free to improve this `README.md` by adding more details or examples! 🚀
+
