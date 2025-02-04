@@ -10,6 +10,12 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<meta name="description" content="">
+
+<script defer src="script.js"></script>
     <title>JMS Automotive</title>
   </head>
   <body>
@@ -21,10 +27,10 @@
 
         <div id="heading">
           <h1>Find Your Perfect Pre-Owned Truck Today</h1>
-          <h4>
+          <p style="font-size: 21px;">
             Top Brands | Inspected & Certified | Ready for Immediate Delivery
-          </h4>
-          <button class="button">Explore Our Inventory</button>
+          </p>
+          <a href="#slide" class="button" style="text-decoration: none;">Explore Our Inventory</a>
         </div>
       </div>
 
@@ -87,7 +93,7 @@
         </div>
       </div>
 
-      <div class="carousel slide"
+      <div id="slide" class="carousel slide"
         id="carouselDemo"
         data-bs-wrap="true"
         data-bs-ride="carousel"
@@ -322,7 +328,7 @@
           <h2>Contact Us</h2>
           <div class="contact-details">
             <p>
-              <strong>Address:</strong> 123 Anywhere St., Any City, ST 12345
+              <strong>Address:</strong> Compass Building Al Shohada Road, Al-Hamra Industrial Zone-FZ, Ras Al Khaimah, UAE
             </p>
             <p><strong>UAE:</strong> +971 58 1262817</p>
             <p><strong>KSA:</strong> +966 59 7902010</p>
@@ -348,8 +354,8 @@
         </div>
         <div class="right-section">
           <p style="font-size: 20px; color: #001A33; font-weight: 600;">GET IN TOUCH</p>
-          <form action="#" method="post">
-            <input type="text"
+          <form method="post" id="Contactform">
+             <input type="text"
             placeholder="Name"
             id="name"
             name="name"
