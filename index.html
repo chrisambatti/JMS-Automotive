@@ -37,13 +37,15 @@
     <div id="main">
       <div id="hero">
         <div id="nav">
-          <a href="#" style="font-size: 25px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" >JMS AUTOMOTIVE</a>
-          <div class="nav-links">
-              <a href="#home">Home</a>
-              <a href="#about-us">About Us</a>
-              <a href="#our-inventory">Our Inventory</a>
-              <a href="#contact">Contact Us</a>
-          </div>
+          <nav>
+            <a href="#" style="text-decoration: none; color: #bb9979; font-size: 25px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" >JMS AUTOMOTIVE</a>
+            <ul>
+              <li><a href="#main">Home</a></li>
+              <li><a href="#about-us">About Us</a></li>
+              <li><a href="#our-inventory">Our Inventory</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </nav>
       </div>
       
 
@@ -347,7 +349,7 @@
 
       <div class="container2" id="contact">
         <div class="left-section">
-          <h2>Contact For Price</h2>
+          <h2>Contact Us</h2>
           <div class="contact-details">
             <p>
               <strong>Address:</strong> Compass Building Al Shohada Road, Al-Hamra Industrial Zone-FZ, Ras Al Khaimah, UAE
@@ -385,7 +387,7 @@
             <input 
             type="text" 
             id="number"  
-            placeholder="Phone Number" 
+            placeholder="+xxx xxxxxxx" 
             style="font-size: 15px; padding: 5px"
             required
             />
@@ -406,7 +408,7 @@
               required
             ></textarea>
 
-            <button type="submit">Send</button>
+            <button type="submit" onclick="thankyou()">Send</button>
           </form>
         </div>
       </div>

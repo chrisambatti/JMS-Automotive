@@ -17,7 +17,7 @@ function sendMail(){
         from_email: email,
         from_phone: number,
         message: message,
-        }).then(alert("sent !!"));
+        });
 }
 
 let form = document.getElementById('Contactform')
@@ -26,58 +26,30 @@ form.addEventListener('submit',(e)=>{
     sendMail();
 })
 
-// emailjs.send("service_yuyzf5c","template_pugx095",{
-//     from_name: "prasad",
-//     from_email: "prasadkalvikatti@gmail.com",
-//     from_phone: "1234567890",
-//     message: "hello",
-//     });
 
-const countryCodes = [
-    { name: "United States", code: "+1" },
-    { name: "United Kingdom", code: "+44" },
-    { name: "Canada", code: "+1" },
-    { name: "Australia", code: "+61" },
-    { name: "India", code: "+91" },
-    { name: "Germany", code: "+49" },
-    { name: "France", code: "+33" }
-];
+// function thankyou() {
+//     window.location.href="thankyou.html"
+// }
 
-const select = document.createElement("select");
-select.style.padding = "5px";
-select.style.fontSize = "16px";
+// let nav = document.getElementById('nav')
+// console.log(nav);
+// window.addEventListener('scroll',()=>{
+//     if(window.scrollY > 100){
+//         console.log("hello");
+//         nav.style.position - "fixed"   
+//     }
+    
+// })
 
-countryCodes.forEach(country => {
-    const option = document.createElement("option");
-    option.value = country.code;
-    option.textContent = `${country.name} (${country.code})`;
-    select.appendChild(option);
-});
+window.onscroll = function() {myFunction()};
 
-const input = document.getElementById("number");
-if (input) {
-    const wrapper = document.createElement("div");
-    wrapper.style.display = "flex";
-    wrapper.style.alignItems = "center";
-    wrapper.style.gap = "5px";
+var navbar = document.querySelector("nav");
+var sticky = navbar.offsetTop;
 
-    const countryCodeDisplay = document.createElement("span");
-    countryCodeDisplay.textContent = select.value;
-    countryCodeDisplay.style.fontSize = "16px";
-
-    select.addEventListener("change", () => {
-        countryCodeDisplay.textContent = select.value;
-    });
-
-    wrapper.appendChild(select);
-    wrapper.appendChild(countryCodeDisplay);
-    wrapper.appendChild(input);
-
-    input.parentNode.replaceChild(wrapper, input);
-} else {
-    console.error("Input field with ID 'number' not found.");
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
 }
-
-
-
-
