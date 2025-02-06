@@ -27,9 +27,9 @@ form.addEventListener('submit',(e)=>{
 })
 
 
-// function thankyou() {
-//     window.location.href="thankyou.html"
-// }
+function thankyou() {
+    window.location.href="thankyou.html"
+}
 
 // let nav = document.getElementById('nav')
 // console.log(nav);
