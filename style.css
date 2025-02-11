@@ -106,10 +106,7 @@ nav {
     background: rgba(24, 24, 73, 0.8);
     padding: 20px;
     margin-bottom: 50px;
-    
-
 }
-
 
 #heading h1 {
     font-size: 2em;
@@ -577,4 +574,23 @@ body {
     background-color: #131e3d;
     color: #bb9979;
     padding: 5px;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:41px;
+	box-shadow: 2px 2px 3px #ffffff;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
 }
