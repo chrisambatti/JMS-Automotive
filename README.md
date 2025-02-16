@@ -18,9 +18,11 @@ JMS Automotive repository is the official repository of JMS Automotive. The webs
 
 ## 📸 Images
 
-![Image 1](C:\Users\CHRISTOPHER\Desktop\JMS Automotives\assets\image1.jpg)
-![Image 2](C:\Users\CHRISTOPHER\Desktop\JMS Automotives\assets\image2.jpg)
-![Image 3](C:\Users\CHRISTOPHER\Desktop\JMS Automotives\assets\image3.jpg)
+![Image 1](C:\Users\CHRISTOPHER\Desktop\JMS Automotives\assets\web1.png)
+![Image 1](C:\Users\CHRISTOPHER\Desktop\JMS Automotives\assets\web2.png)
+![Image 1](C:\Users\CHRISTOPHER\Desktop\JMS Automotives\assets\web3.png)
+![Image 1](C:\Users\CHRISTOPHER\Desktop\JMS Automotives\assets\web4.png)
+![Image 1](C:\Users\CHRISTOPHER\Desktop\JMS Automotives\assets\web5.png)
 
 ## 📦 Installation
 
