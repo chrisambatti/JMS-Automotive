@@ -576,21 +576,21 @@ body {
     padding: 5px;
 }
 
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:41px;
-	box-shadow: 2px 2px 3px #ffffff;
-  z-index:100;
+.whatsapp_float {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 50px;
+    box-shadow: 2px 2px 3px #ffffff;
+    z-index: 100;
 }
 
-.my-float{
-	margin-top:16px;
+.whatsapp-icon {
+    margin-top: 16px;
 }
