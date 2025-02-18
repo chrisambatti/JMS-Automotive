@@ -4,7 +4,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/chrisambatti/JMS-Automotive)
 ![GitHub last commit](https://img.shields.io/github/last-commit/chrisambatti/JMS-Automotive)
 
-JMS Automotive repository is the official repository of JMS Automotive, the website provide you with the overview of our company and what what we do at JMS Automotive.
+JMS Automotive repository is the official repository of JMS Automotive. The website provides you with an overview of our company and what we do at JMS Automotive.
 
 ![Website!](C:\Users\CHRISTOPHER\Desktop\JMS Automotives\assets\web1.jpg)
 
@@ -18,7 +18,11 @@ JMS Automotive repository is the official repository of JMS Automotive, the webs
 
 ## 📸 Images
 
-
+![Image](assets/web1.png)
+![Image](assets/web2.png)
+![Image](assets/web3.png)
+![Image](assets/web4.png)
+![Image](assets/web5.png)
 
 ## 📦 Installation
 
@@ -43,7 +47,7 @@ To set up the project locally, follow these steps:
 
 ## 📖 Usage
 
-It gives you an overview of what we do at JMS Automotive and the list of Trucks we have at our place.
+It gives you an overview of what we do at JMS Automotive and the list of trucks we have at our place.
 
 ## 🤝 Contributing
 
@@ -57,7 +61,4 @@ Contributions are welcome! To contribute:
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
 
